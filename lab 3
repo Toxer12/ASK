@@ -1,0 +1,50 @@
+1 karta z nata na bridged(moze)
+
+
+cmd ipconfig
+realese renew
+w menedżerze
+dodaj role i funkcje(iis) 23 z 43
+-zabezpieczenia wszystkie
+funkcje bez zmian
+
+start wszystkie programy (iis)menadzer internetowych uslug
+
+menadzer rozwin witryny
+usun strony
+dodaj witryny(prawy na witryny)
+nazwa(dowolna)
+sciezka(folder na pulpicie "XD")
+testuj(autoryzacja nie bangla)
+powiazanie(htpp i ip wychodzace na swiat(wszystkie nie przypisane tez zadziala))
+Kliknij ok
+
+edytuj uprawnienia i zabezpieczenia
+zawansowane ustawienia (wpis uprawnienia dla htpp)
+(wlasciwosci/zabezpieczenia/zaawansowane/dodaj/wybierz podmiot uprawnien(wszyscy)) no i git
+dla wszystkich
+
+NOTATNIK XDDD
+Jakas prosta strona html(tytul/<h1>http only</h1>)
+zapisz jako index.html w folderze na pulpicie
+
+nowa witryna ale tym razem szyfrowana
+pule(default)
+sciezka(znow nowy folder)
+https
+doddaj pierwszy ssl
+znowu uprawnienia do folderu
+
+teraz bd blad certyfikatu
+ale mozna go zignorowac
+
+przekierowanie http
+https//:podaj adres IP
+zmiana portu 
+edytuj witryne
+powiazania
+edytuj port np> 8080
+uruchom ponownie
+dopisz na koncu strony zeby sie polaczyc
+zeby dzialal na zewnatrz wylacz firewalla XDDDD
+mozna dodac powiazanie?

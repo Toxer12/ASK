@@ -1,0 +1,71 @@
+mendezer--(aka role)
+Dodaj role
+-server DNS
+
+wszystkie szukaj(dns)
+
+rozwin wszystko
+(sprawdz jakie adresy ip)
+wskrocie ipconfig
+sterafa wyszukiwania do przodu
+prawy(nowa strefa)
+strefa podstawowa
+do wszystkich serwerow
+nazwa np.(mojaDomena.local)(tylko tu zmineia)
+zalecane
+
+Strefa wyszukiwania wstecznego
+192.168.200(nazwa(ipv4))
+
+wyszukiwanie w przod
+mojadomena.local
+prawy(nowy host) czyli rekord a lu a4
+ip tylko
+
+www ip utworz wskaznik
+
+nowy alias
+ftp
+www.mojadomena.local
+
+aktualizacja dchp i iss
+
+karta seciowa z adresem statycznym
+zmien dns na adrs ip
+a alternatywny na 8.8.8.8
+
+menedzer - narzedzia - DHCP
+zakres-opcje zakresu
+serwery dns
+dodaj ip(na sama gore go daj)(zastosuj)
+
+wprowadzanie danych(zmien nazwe
+
+aktualizacja iss
+szukaj(iss)
+powiazane witryny
+daj im zazwe hosta
+edytuj witryny zeby dzialaly tylko na statycznym adresie ip
+dodaj tez alias
+
+windows 7--
+cmd
+ipconfig
+(zmienil sie sufiks)
+ipconfig/all
+nslookup mojadomena.local
+www.moja--
+ftp.-moja--
+adres ptr czyli po ip
+tcp powinien wyrzucic error
+
+dns - wstecz
+bedzie nowy rekord
+
+win7
+nslookup ip rekordu
+
+explorer
+ip na http i https
+ww moja domena. local
+ftp itd

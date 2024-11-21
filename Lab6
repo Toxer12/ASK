@@ -1,0 +1,72 @@
+Konfiguracja karty sieciowej
+Zmien na NAT w oracle
+
+ping google.com
+
+slackpkg search bind
+slackpkg update
+slackpkg upgrade/install bind
+pytanie o
+whereis named/named.conf
+
+nano etc/named.conf
+zone "moja_domena.local" IN{
+type master;
+file "var/named/moja_domena.local.zone";
+};
+
+zone "26.168.192in-addr.arpa" IN{
+type maste;
+file "/var/named/26.168.192...;
+};
+
+named checkconf
+
+ls -la /var/named
+
+nano /var/named/maj-domena.local.zone
+
+$ttl 86400
+@ IN SOA ns1.moja-domena.local. email@email.pl. (
+2024211101 ; Serial
+3600 ; Refresh
+1800 ; Retry
+1209600 ; expire
+86400 );Minimum TTL
+
+IN NS ns1.moja-domena.local.
+ns1 IN A 192.168.26.1
+www IN A 192.168.26.1
+ftp IN CNAME www.moja-domena.local.
+
+/////
+named-checkzone www.moja-domena.local /var/named/moja-do...
+
+cp /var/namedmoja-domena.local.zone /var/name/26.168.192.in-adde.arpa
+
+edytuj nowy
+usun hosty
+pisz teraz
+1 IN PTR ww.moja-domena.local.
+
+znowu mozna checkzone
+
+named -g
+chmod 777 /var/named
+named -g
+ctrl+c
+nano /etc/dhcp.conf
+
+killall dhcpd
+
+Server name ugh
+
+
+win7
+cmd
+
+HAXY
+nano /etc/hosts
+na koncu dopisz IP
+
+curl www.moja-dom...
